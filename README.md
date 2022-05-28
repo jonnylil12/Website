@@ -22,10 +22,10 @@ Simple project that showcases full stack development
 
 
  ## Notes
- **strict=false** in tsconfig.json.
+ - **strict=false** in tsconfig.json.
  
- Schema is located in `...\Website\database\storageDB`.
- You must point MySQL to that datasource.
+ - Schema is located in `...\Website\database\storageDB`.
+  You must point MySQL to that datasource.
  
  1. stop MySQL service
  2. go to C:\ProgramData\MySQL\MySQL Server 8.0
