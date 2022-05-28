@@ -1,0 +1,19 @@
+
+
+button {
+
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 23px;
+  outline: 0;
+  text-align: center;
+  width: 30%;
+  margin-left: 60px;
+
+}
+
+button:active {
+  background-color: lightblue;
+}

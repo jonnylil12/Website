@@ -1,0 +1,17 @@
+<div class = page>
+  <app-dynamicform [fields] ="labels" [(form)] = "userform"
+                   (onsubmit)="setUser()">
+  </app-dynamicform>
+
+    <app-buttons [text] = "'Show Users'"
+                 (onclick)="getUsers()"></app-buttons>
+
+    <app-buttons  [text] = "'Clear'"
+                  (onclick)="Clear()"></app-buttons>
+
+
+  <app-tableview [items] = "userlist" ></app-tableview>
+</div>
+
+
+

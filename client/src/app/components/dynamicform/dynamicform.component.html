@@ -1,0 +1,13 @@
+
+  <form  [formGroup] = "form" (ngSubmit)="onSubmit()" (input)="onInput()" class="form">
+    <div class = "title">Create a Account</div>
+    <div *ngFor="let field of fields " class = "input-container ic1" >
+      <input id = "{{field}} "type = "text" class = "input" placeholder=" " formControlName="{{field}}" >
+      <div class="cut"></div>
+      <label id = "{{field}}" class = "placeholder">{{field}}</label>
+    </div>
+
+    <button type = "submit" class = "submit">Submit</button>
+
+  </form>
+

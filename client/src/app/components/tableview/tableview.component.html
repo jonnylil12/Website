@@ -1,0 +1,18 @@
+<table *ngIf = "items.length !=0" class = "styled-table">
+  <thead>
+  <tr>
+    <th>ID</th> <th>Name</th> <th>Username</th> <th>Password</th> <th>Email</th> <th>Age</th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <tr *ngFor="let userModel of items">
+    <td>{{userModel.id}}</td>
+    <td>{{userModel.name}}</td>
+    <td>{{userModel.username}}</td>
+    <td>{{userModel.password}}</td>
+    <td>{{userModel.email}}</td>
+    <td>{{userModel.age}}</td>
+  </tr>
+  </tbody>
+</table>
