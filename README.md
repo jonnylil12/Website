@@ -1,4 +1,4 @@
-# Team Generator
+# User Interaction Site
 
 Simple project that showcases full stack development 
 
@@ -17,9 +17,14 @@ Simple project that showcases full stack development
 - run \Website\src\main\java.com.example\website\App.java\App.java  for server *localhost:8080*
 - Start the MySQL Server on your desktop for database *localhost:3306*
 
-## Dependencies
+## Dependencies 
  - mysql-connector-java(9.0.25)
  - spring-boot-starter-data-jpa
  - spring-boot-starter-web
  - mssql-jdbc
+ - 
+ ### Notes
  - **strict=false** in tsconfig.json 
+ - Download and starting of MySQL Server depends on your Platform see [Docs](shttps://dev.mysql.com/doc/mysql-startstop-excerpt/8.0/en/windows-server-first-start.html)
+ - DDL is located in \Website\database\script.sql make sure to configure you my.ini file to point that directory
+ 
