@@ -22,7 +22,7 @@ Simple project that showcases full stack development
  - spring-boot-starter-data-jpa
  - spring-boot-starter-web
  - mssql-jdbc
- - 
+
  ### Notes
  ---
  - **strict=false** in tsconfig.json 
