@@ -30,5 +30,5 @@ Simple project that showcases full stack development
  ### Notes
  ---
  - **strict=false** in tsconfig.json 
- - Schema is located in \Website\database\storageDB make sure to configure you my.ini file to point ...\Website\database
+ - Schema is located in \Website\database\storageDB. Configure your my.ini file datadir=...\Website\database
  
