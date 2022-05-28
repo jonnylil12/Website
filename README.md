@@ -8,27 +8,28 @@ Simple project that showcases full stack development
 - [MySQL](https://dev.mysql.com/downloads/)
 
 ## Getting Setup 
-1. run command  `npm install -g @angular/cli ` *Angular CLi*
-2. run command `npm install --save-dev @angular-devkit/build-angular` *Angular Dev Kit*
+1. run command  `npm install -g @angular/cli` 
+2. run command `npm install --save-dev @angular-devkit/build-angular`
 3. Install MySQL Server on computer
 
 ## Starting Application
-- run command `ng serve --open` for client *localhost:4200*
-- run \Website\src\main\java.com.example\website\App.java\App.java  for server *localhost:8080*
-- For windows users  
+- For frontend on **localhost:4200**   run command `ng serve --open`
+- For backend on **localhost:8080**   execute \Website\src\main\java.com.example\website\App.java\App.java 
+- For database on **localhost:3306**  start MySQL server
+
+ ## Notes
+ - **strict=false** in tsconfig.json 
+ - Schema is located in \Website\database\storageDB To access it you must point MySQL server to that datasource
+     1. stop MySQL service
+     2. go to C:\ProgramData\MySQL\MySQL Server 8.0
+     3. search for **datadir** in the my.ini file
+     4. change pointer to ...\Website\database
+
+
+### Starting MySQL Server for Windows Users
     1. "windowskey" + "R" 
     2. enter **services.msc**
     3. search for MySQLxx
-    4. start service for database on *localhost:3306*
+    4. click on it and start service 
 
-## Dependencies 
- - mysql-connector-java(9.0.25)
- - spring-boot-starter-data-jpa
- - spring-boot-starter-web
- - mssql-jdbc
-
- ### Notes
- ---
- - **strict=false** in tsconfig.json 
- - Schema is located in \Website\database\storageDB. Configure your my.ini file datadir=...\Website\database
  
