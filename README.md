@@ -15,7 +15,11 @@ Simple project that showcases full stack development
 ## Starting Application
 - run command `ng serve --open` for client *localhost:4200*
 - run \Website\src\main\java.com.example\website\App.java\App.java  for server *localhost:8080*
-- Start the MySQL Server on your desktop for database *localhost:3306*
+- For windows users  
+    1. "windowskey" + "R" 
+    2. enter **services.msc**
+    3. search for MySQLxx
+    4. start service for database on *localhost:3306*
 
 ## Dependencies 
  - mysql-connector-java(9.0.25)
@@ -26,6 +30,5 @@ Simple project that showcases full stack development
  ### Notes
  ---
  - **strict=false** in tsconfig.json 
- - Download and starting of MySQL Server depends on your Platform see [Docs](https://dev.mysql.com/doc/mysql-startstop-excerpt/8.0/en/windows-server-first-start.html)
- - DDL is located in \Website\database\script.sql make sure to configure you my.ini file to point that directory
+ - Schema is located in \Website\database\storageDB make sure to configure you my.ini file to point ...\Website\database
  
