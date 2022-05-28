@@ -26,7 +26,6 @@ Simple project that showcases full stack development
  ### Notes
  ---
  - **strict=false** in tsconfig.json 
- - Download and starting of MySQL Server depends on your Platform see 
-   [Docs](shttps://dev.mysql.com/doc/mysql-startstop-excerpt/8.0/en/windows-server-first-start.html)
+ - Download and starting of MySQL Server depends on your Platform see [Docs](https://dev.mysql.com/doc/mysql-startstop-excerpt/8.0/en/windows-server-first-start.html)
  - DDL is located in \Website\database\script.sql make sure to configure you my.ini file to point that directory
  
