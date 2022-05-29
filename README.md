@@ -15,10 +15,10 @@
 - **Redirect MySQL datasource**
 
  1. stop MySQL service
- 2. edit the permissions for ...\Website\database add NETWORK SERVICE and full control
- 3. go to C:\ProgramData\MySQL\MySQL Server 8.0
- 4. search for **datadir** in the my.ini file
- 5. change pointer to ...\Website\database
+ 2. edit the permissions for `...\Website\database` add **NETWORK SERVICE** and full control
+ 3. go to `C:\ProgramData\MySQL\MySQL Server 8.0`
+ 4. search for **datadir=** in the my.ini file
+ 5. change pointer to `...\Website\database`
 
 
 
@@ -29,7 +29,7 @@
 4. search for MySQL80 service
 5. right click and start MySQL server
     
-- Open in your browser **localhost:4200** 
+- Navigate in your browser **localhost:4200** 
 
 ### Further Help
 ---
