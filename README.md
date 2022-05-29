@@ -5,14 +5,14 @@ Simple project that showcases full stack
 
 ## Getting Setup 
 
-- Installing tools
+- **Installing tools**
 
  1. In Powershell run command `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned`  
  3. In terminal run command  `npm install -g @angular/cli` 
  4. In terminal run command `npm install --save-dev @angular-devkit/build-angular` 
  5. Use MySQL installer to download [MySQL Server](https://dev.mysql.com/downloads/) 
 
-- redirect MySQL datasource.
+- **Redirect MySQL datasource**
 
  1. stop MySQL service
  2. edit the permissions for ...\Website\database add NETWORK SERVICE and full control
