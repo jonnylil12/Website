@@ -1,4 +1,5 @@
 # Interactive Site
+![alt text](https://github.com/jonnylil12/Website/blob/master/client/src/assets/star-of-david.png)
 
 - Simple project that showcases full stack
 
