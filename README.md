@@ -7,11 +7,12 @@
 ## Getting Setup 
 
 - **Installing tools**
-
  1. In Powershell run command `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned`  
- 3. In terminal run command  `npm install -g @angular/cli` 
- 4. In terminal run command `npm install --save-dev @angular-devkit/build-angular` 
- 5. Use MySQL installer to download [MySQL Server](https://dev.mysql.com/downloads/) 
+ 2. In terminal run command  `npm install -g @angular/cli` 
+ 3. In terminal run command `npm install --save-dev @angular-devkit/build-angular` 
+ 4. Download [Springboot Cli] https://repo.spring.io/release/org/springframework/boot/spring-boot-cli/2.7.0/spring-boot-cli-2.7.0-bin.zip and add it to your path (Optional)
+ 5. Download [MySQL Server](https://dev.mysql.com/downloads/) 
+
 
 - **Redirect MySQL datasource**
 
@@ -30,7 +31,7 @@
 4. search for MySQL80 service
 5. right click and start MySQL server
     
-- Navigate in your browser **localhost:4200** 
+ Navigate in your browser **localhost:4200** 
 
 ### Further Help
 ---
