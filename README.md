@@ -1,6 +1,6 @@
 # Interaction Site
 
-Simple project that showcases full stack
+- Simple project that showcases full stack
 
 
 ## Getting Setup 
@@ -19,7 +19,6 @@ Simple project that showcases full stack
  3. go to C:\ProgramData\MySQL\MySQL Server 8.0
  4. search for **datadir** in the my.ini file
  5. change pointer to ...\Website\database
-
 
 
 
