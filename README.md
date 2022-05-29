@@ -24,20 +24,13 @@ Simple project that showcases full stack
 
 
 ## Starting Application
-- frontend on port **localhost:4200**  run command `ng serve --open`
-- backend on port **localhost:8080**   execute program `...\Website\src\main\java\com\example\website\App.java`
-- database on port **localhost:3306**  start MySQL server 
-
-
-
-
-## Starting MySQL Server for Windows Users
-    1. "windowskey" + "R" 
-    2. enter **services.msc**
-    3. search for MySQLxx
-    4. click on it and start service or stop it
+1. In terminal run command `ng serve --open`  
+2. execute `...\Website\src\main\java\com\example\website\App.java` 
+3. Press "windowskey" + "R" and enter **services.msc**
+4. search for MySQL80 service
+5. right click and start MySQL server
     
-
+- Open in your browser **localhost:4200** 
 
 ### Further Help
 ---
