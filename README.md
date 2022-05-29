@@ -12,7 +12,7 @@ Simple project that showcases full stack development
 1. In Powershell run command `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned`  
 3. In terminal run command  `npm install -g @angular/cli` 
 4. In terminal run command `npm install --save-dev @angular-devkit/build-angular` 
-5. Download and install [MySQL Server](https://dev.mysql.com/downloads/) 
+5. Use MySQL installer to download MySQL Server [MySQL installer](https://dev.mysql.com/downloads/) 
 
 
 ## Starting Application
