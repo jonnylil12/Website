@@ -1,4 +1,4 @@
-# Interaction Site
+# Interactive Site
 
 - Simple project that showcases full stack
 
