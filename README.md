@@ -31,8 +31,7 @@
 3. Press "windowskey" + "R" and enter **services.msc**
 4. search for MySQL80 service
 5. right click and start or stop MySQL service
-    
- Navigate in your browser **localhost:4200** 
+6. Navigate in your web browser to **localhost:4200** 
 
 ### Further Help
 ---
