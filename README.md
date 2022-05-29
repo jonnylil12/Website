@@ -10,7 +10,7 @@
  1. In Powershell run command `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned`  
  2. In terminal run command  `npm install -g @angular/cli` 
  3. In terminal run command `npm install --save-dev @angular-devkit/build-angular` 
- 4. Download [Springboot Cli] https://repo.spring.io/release/org/springframework/boot/spring-boot-cli/2.7.0/spring-boot-cli-2.7.0-bin.zip and add it to your path (Optional)
+ 4. Download [Springboot Cli](https://repo.spring.io/release/org/springframework/boot/spring-boot-cli/2.7.0/spring-boot-cli-2.7.0-bin.zip) and add it to your path (Optional)
  5. Download [MySQL Server](https://dev.mysql.com/downloads/) 
 
 
