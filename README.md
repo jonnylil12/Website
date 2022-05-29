@@ -7,6 +7,7 @@
 ## Getting Setup 
 
 - **Installing tools**
+ 1. Download [Node.js](https://nodejs.org/en/download/) and [JDK](https://www.oracle.com/java/technologies/downloads/#java18)
  1. In Powershell run command `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned`  
  2. In terminal run command  `npm install -g @angular/cli` 
  3. In terminal run command `npm install --save-dev @angular-devkit/build-angular` 
