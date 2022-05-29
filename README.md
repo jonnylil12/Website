@@ -15,8 +15,8 @@
 - **Redirect MySQL datasource**
 
  1. stop MySQL service
- 2. edit the permissions for `...\Website\database` add **NETWORK SERVICE** and full control
- 3. go to `C:\ProgramData\MySQL\MySQL Server 8.0`
+ 2. edit the security permissions add **NETWORK SERVICE** to list of users and *full control*
+ 3. go to *C:\ProgramData\MySQL\MySQL Server 8.0*
  4. search for **datadir=** in the my.ini file
  5. change pointer to `...\Website\database`
 
@@ -24,7 +24,7 @@
 
 ## Starting Application
 1. In terminal run command `ng serve --open`  
-2. execute `...\Website\src\main\java\com\example\website\App.java` 
+2. execute *...\Website\src\main\java\com\example\website\App.java*
 3. Press "windowskey" + "R" and enter **services.msc**
 4. search for MySQL80 service
 5. right click and start MySQL server
