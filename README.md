@@ -21,13 +21,13 @@
  2. go to *...\Website\src\Data* 
  3. set security permissions of the folder to  (user = **NETWORK SERVICE** , control = **full control**)
  4. go to *C:\ProgramData\MySQL\MySQL Server 8.0*
- 5. set **datadir** of the my.ini file to `datadir=C:\Website\src\Data`
+ 5. set **datadir** of the my.ini file to `datadir= ...\\Website\\src\\Data`
 
 
 
 ## Starting Application
 1. In terminal run command `ng serve --open`  
-2. In terminal run command  `spring run C:\Website\src\main\java\com\example\website\App.java`
+2. In terminal run command  `spring run ...\Website\src\main\java\com\example\website\App.java`
 3. Press "windowskey" + "R" and enter **services.msc**
 4. search for MySQL80 service
 5. right click and start or stop MySQL service
