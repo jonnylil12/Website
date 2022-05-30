@@ -21,7 +21,7 @@
  2. go to *...\Website\src\Data* 
  3. set security permissions of the folder to  (user = **NETWORK SERVICE** , control = **full control**)
  4. go to *C:\ProgramData\MySQL\MySQL Server 8.0*
- 5. set **datadir** of the my.ini file to `datadir= ...\\Website\\src\\Data`
+ 5. set **datadir** of the my.ini file to `datadir= ...\\Website\\src\\database`
 
 
 
