@@ -7,9 +7,11 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 
-@Entity @Table(name = "user")
+@Entity 
+@Table(name = "user")
 public class User {
-    @Id  @GeneratedValue(strategy = GenerationType.AUTO)
+    @Id  
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     private String name;
     private String username;
