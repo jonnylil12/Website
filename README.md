@@ -16,13 +16,13 @@
 
 
 - **MySQL datasource**
- 1. Stop MySQL Service (see below)
+ 1. Stop MySQL Service (see Starting Application)
  2. replace folder `C:\ProgramData\MySQL\MySQL Server 8.0\Data` with `...\Website\src\Data`
 
 
 ## Starting Application
-1. Press "windowskey" + "R" and enter **services.msc**
-2. Search for MySQL80 service
+1. Press **windowskey** + **R** and enter **services.msc**
+2. Search for **MySQL80** service
 3. Right click and start or stop MySQL service
 4. In Project terminal run command  `mvn spring-boot:run`
 5. In Project terminal run command `ng serve --open` 
