@@ -18,11 +18,7 @@
 - **Redirect MySQL datasource**
 
  1. Stop MySQL Service (see below)
- 2. Go to *...\Website\src\Data* 
- 3. Set security permissions of the folder to  (user = **NETWORK SERVICE** , control = **full control**)
- 4. Go to *C:\ProgramData\MySQL\MySQL Server 8.0*
- 5. Set **datadir** of the my.ini file to `datadir= ...\\Website\\src\\Data`
-
+ 2. replace folder `C:\ProgramData\MySQL\MySQL Server 8.0\Data` with `...\Website\src\Data`
 
 
 ## Starting Application
