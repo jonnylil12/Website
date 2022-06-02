@@ -34,8 +34,9 @@ export class UserPageComponent implements OnInit {
   async getUsers() {
     await this.userserviceObj.getUsers(this.ROOT_URL)
           .subscribe( (res:User[]) => this.userlist = res );
-
   }
+
+
 
   async setUser() {
     await this.userserviceObj.setUser(this.ROOT_URL,this.userform.value)
